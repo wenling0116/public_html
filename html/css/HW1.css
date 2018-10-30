@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+}
+#sky{
+    background-image: url(star_9.jpg);
+    z-index=-2;
+    background-attachment: fixed;
+    padding-right: 0px;
+    padding-top: 0px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#sky .row div:first-child{
+/*    position:relative;*/
+    min-height:1000px;
+}
+
+#sky .row div:last-child{
+    z-index: 2;
+    color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
+    min-height:1000px;
+}
+
+
+#sky img{
+    position: absolute;
+    width: 15%;
+    height: auto;
+    bottom: 10%;
+    left: 60%;
+    
+}
+
+footer {
+    background-image: url(star_8.jpg);
+    background-attachment: fixed;
+    z-index=-2;
+    padding-right: 0px;
+    padding-top: 0px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 800px;
+    
+}
+
